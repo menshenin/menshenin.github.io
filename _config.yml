@@ -1,0 +1,22 @@
+---
+title: Menshenin.Github.Io
+timezone: Asia/Yekaterinburg
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+permalink: "/blog/:title"
+name: Записки 00101996
+description: Запииски стражника Вайтрана о программировании и не только
+google_verification:
+sass:
+  style: compressed
+  sass_dir: _sass
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
